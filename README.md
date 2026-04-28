@@ -1,6 +1,25 @@
-# Smart Password Strength Analyzer
+<h1 align="center">
+  <span style="color:#7c3aed;">Smart Password Strength Analyzer</span>
+</h1>
 
-## Turn weak passwords into strong, intelligent choices
+<p align="center">
+  <b><span style="color:#22c55e;">Analyze.</span></b>
+  <b><span style="color:#f59e0b;">Understand.</span></b>
+  <b><span style="color:#38bdf8;">Upgrade.</span></b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-Swing%20Desktop-7c3aed?style=for-the-badge" alt="Java Swing Desktop">
+  <img src="https://img.shields.io/badge/Password-Strength%20Analysis-22c55e?style=for-the-badge" alt="Password Strength Analysis">
+  <img src="https://img.shields.io/badge/Adaptive-Recommendation%20Engine-f59e0b?style=for-the-badge" alt="Adaptive Recommendation Engine">
+  <img src="https://img.shields.io/badge/DSA-Trie%20%7C%20HashSet%20%7C%20Entropy-06b6d4?style=for-the-badge" alt="DSA">
+</p>
+
+<p align="center">
+  <i>A cyber-smart Java application that exposes weak passwords and transforms them into stronger, personalized alternatives.</i>
+</p>
+
+## <span style="color:#60a5fa;">Turn weak passwords into strong, intelligent choices</span>
 
 **Smart Password Strength Analyzer** is a Java desktop application that does more than say "weak" or "strong".
 
@@ -13,11 +32,13 @@ It acts like a **security assistant**:
 - generates **adaptive password recommendations** based on the user's original input
 - lets users **copy stronger recommended passwords directly from the UI**
 
-This project combines a polished Swing interface with data structures and algorithmic logic to create a tool that is practical, educational, and visually engaging.
+<p>
+  <b><span style="color:#a78bfa;">This project combines a polished Swing interface with algorithmic logic, data structures, and security thinking to create a tool that is practical, educational, and visually engaging.</span></b>
+</p>
 
 ---
 
-## Why this app is different
+## <span style="color:#f472b6;">Why this app is different</span>
 
 Most password checkers stop at a score.
 
@@ -27,13 +48,15 @@ Instead of only warning the user, it helps them recover from a weak choice by ge
 
 That means the application is not just an analyzer.
 
-It is a **context-aware password improvement engine**.
+<p>
+  <b><span style="color:#22c55e;">It is a context-aware password improvement engine.</span></b>
+</p>
 
 ---
 
-## What the application does
+## <span style="color:#38bdf8;">What the application does</span>
 
-### 1. Password strength analysis
+### <span style="color:#f97316;">1. Password strength analysis</span>
 
 The analyzer evaluates:
 
@@ -53,7 +76,7 @@ It then returns:
 - detected issues
 - improvement suggestions
 
-### 2. Adaptive password generation
+### <span style="color:#22c55e;">2. Adaptive password generation</span>
 
 When a password is weak or moderate, the app generates **3 to 5 stronger recommendations** that are still connected to the user's original password.
 
@@ -67,7 +90,7 @@ It does this by:
 - shuffling internal characters in a controlled way
 - ensuring character diversity across uppercase, lowercase, digits, and symbols
 
-### 3. Smart UI experience
+### <span style="color:#a78bfa;">3. Smart UI experience</span>
 
 The Swing UI provides:
 
@@ -79,7 +102,9 @@ The Swing UI provides:
 
 ---
 
-## Core features
+## <span style="color:#facc15;">Core features</span>
+
+> <span style="color:#f8fafc; background-color:#111827;">Fast feedback. Smart explanations. Stronger alternatives. Better security decisions.</span>
 
 - Real-time style password analysis workflow
 - Strong scoring pipeline built with modular Java classes
@@ -92,19 +117,19 @@ The Swing UI provides:
 
 ---
 
-## Data structures and algorithms used
+## <span style="color:#fb7185;">Data structures and algorithms used</span>
 
 This project is not just UI work. It is also a data-structures-and-algorithms-driven application.
 
-### `Trie`
+### <span style="color:#22c55e;">`Trie`</span>
 
 Used to store common passwords and risky dictionary-like substrings for fast matching inside user input.
 
-### `HashMap`
+### <span style="color:#60a5fa;">`HashMap`</span>
 
 Used for pattern analysis such as character frequency tracking.
 
-### `HashSet`
+### <span style="color:#f59e0b;">`HashSet`</span>
 
 Used for character pools in the recommendation engine:
 
@@ -113,7 +138,7 @@ Used for character pools in the recommendation engine:
 - digits
 - symbols
 
-### Sliding window pattern detection
+### <span style="color:#c084fc;">Sliding window pattern detection</span>
 
 Used to detect:
 
@@ -121,7 +146,7 @@ Used to detect:
 - descending sequences
 - repeated runs like `aaa`
 
-### Entropy calculation
+### <span style="color:#06b6d4;">Entropy calculation</span>
 
 The app estimates entropy based on:
 
@@ -130,17 +155,17 @@ The app estimates entropy based on:
 
 This gives a more meaningful measure than simple length checks alone.
 
-### Controlled randomization
+### <span style="color:#f43f5e;">Controlled randomization</span>
 
 Used in recommendation generation to create unique results while keeping the output recognizable and relevant to the original input.
 
 ---
 
-## Architecture
+## <span style="color:#818cf8;">Architecture</span>
 
 The project is organized into focused modules.
 
-### Analysis layer
+### <span style="color:#22c55e;">Analysis layer</span>
 
 - `src/dsa/ScoringEngine.java`
 - `src/dsa/EntropyCalculator.java`
@@ -150,7 +175,7 @@ The project is organized into focused modules.
 
 This layer handles password evaluation, scoring, entropy, pattern detection, and issue reporting.
 
-### Recommendation layer
+### <span style="color:#f59e0b;">Recommendation layer</span>
 
 - `src/recommendation/AdaptivePasswordGenerator.java`
 - `src/recommendation/ContextAwarePasswordRecommendationEngine.java`
@@ -162,7 +187,7 @@ This layer handles password evaluation, scoring, entropy, pattern detection, and
 
 This layer handles password transformations, recommendation generation, safety filtering, and output formatting.
 
-### UI layer
+### <span style="color:#38bdf8;">UI layer</span>
 
 - `src/PasswordAnalyzerUI.java`
 
@@ -170,7 +195,7 @@ This is the Swing desktop interface that connects user input, analysis output, a
 
 ---
 
-## User experience flow
+## <span style="color:#e879f9;">User experience flow</span>
 
 ```text
 Enter password
@@ -184,21 +209,21 @@ Enter password
 
 ---
 
-## Example scenario
+## <span style="color:#f97316;">Example scenario</span>
 
-### Input
+### <span style="color:#60a5fa;">Input</span>
 
 ```text
 khumalo38@
 ```
 
-### The app may detect
+### <span style="color:#fb7185;">The app may detect</span>
 
 - not long enough
 - predictable structure
 - limited complexity compared to ideal strong standards
 
-### The app may recommend stronger variants like
+### <span style="color:#22c55e;">The app may recommend stronger variants like</span>
 
 ```text
 KhumAlo227898##%
@@ -206,11 +231,13 @@ KhumaL0#78873^$$
 KhuMalo62@781!#%
 ```
 
-Each recommendation is designed to stay **recognizable** while being much harder to guess or brute-force.
+<p>
+  <b><span style="color:#22c55e;">Each recommendation is designed to stay recognizable while being much harder to guess or brute-force.</span></b>
+</p>
 
 ---
 
-## Screens and interface highlights
+## <span style="color:#a78bfa;">Screens and interface highlights</span>
 
 The interface is designed to feel modern and useful:
 
@@ -224,9 +251,9 @@ This makes the application suitable for demonstrations, coursework, portfolios, 
 
 ---
 
-## How to run
+## <span style="color:#38bdf8;">How to run</span>
 
-### Option 1: Use the script
+### <span style="color:#22c55e;">Option 1: Use the script</span>
 
 From the project root:
 
@@ -234,12 +261,12 @@ From the project root:
 bash run.sh
 ```
 
-### What the script does
+### <span style="color:#f59e0b;">What the script does</span>
 
 - compiles all Java source files into `out/`
 - launches the Swing application
 
-### Option 2: Compile manually
+### <span style="color:#c084fc;">Option 2: Compile manually</span>
 
 ```bash
 javac -d out src/dsa/*.java src/recommendation/*.java src/PasswordAnalyzerUI.java
@@ -248,7 +275,7 @@ java -cp out PasswordAnalyzerUI
 
 ---
 
-## Project structure
+## <span style="color:#f472b6;">Project structure</span>
 
 ```text
 .
@@ -283,7 +310,7 @@ java -cp out PasswordAnalyzerUI
 
 ---
 
-## Best use cases
+## <span style="color:#facc15;">Best use cases</span>
 
 - security awareness demos
 - Java OOP and DSA coursework
@@ -294,7 +321,7 @@ java -cp out PasswordAnalyzerUI
 
 ---
 
-## What this project really represents
+## <span style="color:#22c55e;">What this project really represents</span>
 
 This application is about more than checking passwords.
 
@@ -312,11 +339,11 @@ to:
 
 In short:
 
-> **Smart Password Strength Analyzer helps users understand password weakness and immediately upgrade to stronger, personalized alternatives.**
+> <span style="color:#ffffff; background-color:#16a34a;"><b>Smart Password Strength Analyzer helps users understand password weakness and immediately upgrade to stronger, personalized alternatives.</b></span>
 
 ---
 
-## Future ideas
+## <span style="color:#60a5fa;">Future ideas</span>
 
 - live analysis while typing
 - password history and export options
@@ -328,7 +355,7 @@ In short:
 
 ---
 
-## Final note
+## <span style="color:#f97316;">Final note</span>
 
 If you want a Java project that combines:
 
@@ -337,4 +364,6 @@ If you want a Java project that combines:
 - algorithmic thinking
 - practical cybersecurity value
 
-this project delivers all four in one experience.
+<p>
+  <b><span style="color:#a78bfa;">This project delivers all four in one powerful experience.</span></b>
+</p>
